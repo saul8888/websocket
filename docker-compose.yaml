@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  goweb:
+    build: .
+    image: websocket
+    container_name: websocket
+    ports:
+        - "8000:8000"
